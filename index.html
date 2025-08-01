@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Producción de Panela</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #f5f2e7; color: #333; }
+    header { background-color: #7b4f28; color: white; padding: 1rem; text-align: center; }
+    nav { background: #5a3c1a; display: flex; justify-content: center; gap: 1rem; padding: 0.5rem; }
+    nav a { color: white; text-decoration: none; font-weight: bold; }
+    section { padding: 2rem; }
+    .process { display: flex; flex-direction: column; gap: 2rem; }
+    .process-item { display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; }
+    .process-item img { width: 100%; max-width: 300px; height: auto; border-radius: 8px; }
+    .process-item .text { max-width: 600px; }
+    .products, .promotions { display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; }
+    .card { background: white; padding: 1rem; border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); max-width: 300px; text-align: center; }
+    .card img { width: 100%; border-radius: 10px; }
+    .btn { background: #c69c6d; color: white; padding: 0.5rem 1rem; border: none; border-radius: 5px; text-decoration: none; display: inline-block; margin-top: 0.5rem; }
+    footer { background: #333; color: white; text-align: center; padding: 1rem; }
+    .socials a { color: rgb(133, 85, 13); margin: 0 0.5rem; font-size: 1.5rem; }
+    .video-short iframe { width: 100%; height: 640px; border: none; border-radius: 10px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Del campo a tu mesa: Producción de Panela</h1>
+  </header>
+
+  <nav>
+    <a href="#video">Inicio</a>
+    <a href="#proceso">Proceso</a>
+    <a href="#productos">Productos</a>
+    <a href="#promos">Promociones</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section id="video">
+    <h2>La importancia de la panela</h2>
+    <div class="video-short">
+      <iframe 
+        src="https://www.youtube.com/embed/Md5n-i4tBVM"
+        title="Short de YouTube sobre la panela"
+        allowfullscreen
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      ></iframe>
+    </div>
+  </section>
+
+  <section id="proceso">
+    <h2>Proceso de Producción</h2>
+    <div class="process">
+      <div class="process-item">
+        <img src="img/Panelita.jpg" alt="Siembra de caña" />
+        <div class="text"><h3>1. Siembra de la caña</h3><p>Preparación del terreno y cultivo de la caña.</p><p>Se selecciona un terreno fértil y bien drenado, se prepara con arado y nivelación, y se siembran estacas sanas de caña en surcos separados. La siembra se hace al inicio de las lluvias y se cuida con riego, control de malezas y fertilización.</p></div>
+      </div>
+      <div class="process-item">
+        <img src="img/Panela1.jpg" alt="Corte de caña" />
+        <div class="text"><h3>2. Corte y recolección</h3><p>Recolección manual de la caña madura.</p><p>Cuando la caña está madura (12 a 18 meses), se corta al ras del suelo con machete, se limpian los tallos y se agrupan en manojos. Luego, se transporta al trapiche en menos de 24 horas para evitar pérdida de calidad.</p></div>
+      </div>
+      <div class="process-item">
+        <img src="img/panelamoliendaaa.jpg" alt="Molienda de caña" />
+        <div class="text"><h3>3. Molienda</h3><p>Extracción del jugo de caña mediante molinos.</p><p>La caña se pasa por un molino que exprime el jugo, mientras el bagazo se separa para usarse como combustible. El jugo extraído se filtra para eliminar impurezas antes de la cocción.</p></div>
+      </div>
+      <div class="process-item">
+        <img src="img/cocciondeljugo.jpg" alt="Cocción" />
+        <div class="text"><h3>4. Cocción del jugo</h3><p>El jugo se cocina para evaporar el agua y concentrar los azúcares.</p><p>El jugo se hierve en grandes pailas sobre fuego de leña, donde se evapora el agua. Se retiran las impurezas y se controla la temperatura hasta obtener una miel espesa lista para moldear.</p></div>
+      </div>
+      <div class="process-item">
+        <img src="img/Panela 4.jpg" alt="Moldeo de panela" />
+        <div class="text"><h3>5. Moldeo y enfriado</h3><p>El líquido se vierte en moldes donde se solidifica.</p><p>La miel caliente se vierte en moldes previamente engrasados o húmedos. Se deja enfriar y endurecer entre 30 y 60 minutos, y luego se desmolda y se deja orear para eliminar la humedad.</p></div>
+      </div>
+      <div class="process-item">
+        <img src="img/paneladefinitva.jpg" alt="Empaque de panela" />
+        <div class="text"><h3>6. Empaque</h3><p>Se empaca cuidadosamente para su distribución.</p><p>La panela se limpia, selecciona y empaca en bolsas, papel o cajas según el formato. Se etiqueta con información nutricional, fecha y productor. El empaque la protege de humedad, insectos y contaminación.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="productos">
+    <h2>Nuestros Productos</h2>
+    <div class="products">
+      <div class="card">
+        <img src="img/panelaenbloque.jpg" alt="Panela en bloque" />
+        <h3>Panela en bloque</h3>
+        <p>100% natural, en presentación tradicional.</p>
+        <a class="btn" href="#contacto">Comprar ahora</a>
+      </div>
+      <div class="card">
+        <img src="img/panelapulverizada.jpg" alt="Panela pulverizada" />
+        <h3>Panela pulverizada</h3>
+        <p>Ideal para bebidas y repostería.</p>
+        <a class="btn" href="#contacto">Comprar ahora</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="promos">
+    <h2>Promociones</h2>
+    <div class="promotions">
+      <div class="card">
+        <h3>Descuento del 15%</h3>
+        <p>Por compras mayores a 10 unidades. ¡Aprovecha!</p>
+        <a class="btn" href="#contacto">Contáctanos</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto y Redes Sociales</h2>
+    <p><strong>Ubicación:</strong> Municipio panelero, Colombia</p>
+    <p><strong>Horario:</strong> Lunes a sábado de 8 a.m. a 6 p.m.</p>
+    <div class="socials">
+      <a href="https://https://www.facebook.com/share/1F1xLH4g7p/" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://instagram.com/tupanela" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://https://www.facebook.com/share/1F1xLH4g7p/" target="_blank"><i class="fab fa-tiktok"></i></a>
+      <a href="https://wa.me/3022930095" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 El cañadizal. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
